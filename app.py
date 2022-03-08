@@ -79,9 +79,10 @@ God."""
 
 context = st.text_area("select a context",select_context)
 options = st.multiselect(
-     'Select question from below list or a form a question',
+     'Select question from Below List',
      ['Who am I?', 'Where am I going to?', "What's the purpose of Life ?", 'What do others mean to me?'])
 
+st.markdown("OR Write your question here")
 question = st.text_input("Questions",options)
 
 if context:
