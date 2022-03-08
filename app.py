@@ -17,7 +17,7 @@ model_checkpoint = "distilbert-base-cased"
 tokenizer = AutoTokenizer.from_pretrained(model_checkpoint)
 
 # The model_path here would be the directory in which you saved the model using the HuggingFace model.save_pretrained() function
-model_path = "QA_Model"
+model_path = "self-realization-model"
 myQAModel = DistilBertForQuestionAnswering.from_pretrained(model_path)
 
 QAPipeline = QuestionAnsweringPipeline(model = myQAModel,tokenizer = tokenizer)
