@@ -78,8 +78,11 @@ but who weeps for the vision of God? If one who cries sincerely for God, one can
 God."""
 
 context = st.text_area("select a context",select_context)
+options = st.multiselect(
+     'Select question from below list or a form a question',
+     ['Who am I?', 'Where am I going to?', "What's the purpose of Life ?", 'What do others mean to me?'])
 
-question = st.text_input("Question", "")
+question = st.text_input("Questions",options)
 
 if context:
     # Execute question against paragraph
