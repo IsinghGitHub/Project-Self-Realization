@@ -82,8 +82,8 @@ options = st.multiselect(
      'Select question from Below List',
      ['Who am I?', 'Where am I going to?', "What's the purpose of Life ?", 'What do others mean to me?'])
 
-st.markdown("OR Write your question here")
-question = st.text_input("Questions",options)
+st.markdown("OR")
+question = st.text_input("Write a question of your choice here", options)
 
 if context:
     # Execute question against paragraph
