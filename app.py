@@ -77,7 +77,7 @@ for God? People shed torrents of tears for their wives, children, wealth, and pr
 but who weeps for the vision of God? If one who cries sincerely for God, one can surely see
 God."""
 
-context = st.text_area(select_context, "")
+context = st.text_area("select a context",select_context)
 
 question = st.text_input("Question", "")
 
