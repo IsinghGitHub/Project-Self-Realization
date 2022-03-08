@@ -75,12 +75,38 @@ Without a moment's hesitation the reply was given: 'Yes, I have seen God. I see 
 I see you here, only more clearly. God can be seen. One can talk to him. But who cares
 for God? People shed torrents of tears for their wives, children, wealth, and property,
 but who weeps for the vision of God? If one who cries sincerely for God, one can surely see
-God."""
+God.
+
+Absorbed, one day, in samadhi, Ramakrishna had found that his mind was soaring 
+high, going beyond the physical universe of the sun, moon, and stars, and passing into 
+the subtle region of ideas. As it continued to ascend, the forms of gods and goddesses 
+were left behind, and it crossed the luminous barrier separating the phenomenal 
+universe from the Absolute, entering finally the transcendental realm. There 
+Ramakrishna saw seven venerable sages absorbed in meditation. These, he thought, 
+must have surpassed even the gods and goddesses in wisdom and holiness, and as he 
+was admiring their unique spirituality he saw a portion of the undifferentiated Absolute 
+become congealed, as it were, and take the form of a Divine Child. Gently clasping the 
+neck of one of the sages with His soft arms, the Child whispered something in his ear, 
+and at this magic touch the sage awoke from meditation. He fixed his half-open eyes 
+upon the wondrous Child, who said in great joy: 'I am going down to earth. Won't you 
+come with me?' With a benign look the sage expressed assent and returned into deep 
+spiritual ecstasy. Ramakrishna was amazed to observe that a tiny portion of the sage, 
+however, descended to earth, taking the form of light, which struck the house in 
+Calcutta where Narendra's family lived, and when he saw Narendra for the first time, 
+he at once recognized him as the incarnation of the sage. He also admitted that the 
+Divine Child who brought about the descent of the rishi was none other than himself. 
+The meeting of Narendra and Sri Ramakrishna was an important event in the lives of 
+both. A storm had been raging in Narendra's soul when he came to Sri Ramakrishna, 
+who himself had passed through a similar struggle but was now firmly anchored in 
+peace as a result of his intimate communion with the Godhead and his realization of 
+Brahman as the immutable essence of all things.
+
+"""
 
 context = st.text_area("select a context",select_context)
 options = st.multiselect(
      'Select question from Below List',
-     ['Who am I?', 'Where am I going to?', "What's the purpose of Life ?", 'What do others mean to me?'])
+     ['Who am I?', 'Where am I going to?', "What's the purpose of Life ?", 'What do others mean to me?',"Where does Narendra's family lived?"])
 
 st.markdown("OR")
 question = st.text_input("Write a question of your choice here: Example: Who is Ramakrishna",options)
