@@ -30,7 +30,7 @@ st.markdown("In America Vivekananda's mission was the interpretation of India's 
 
 
 pdf_document = "BiographybyNikhilananda.pdf"
-def pdf_Reader(): 
+def pdf_Reader(pdf_document): 
     with open(pdf_document, "rb") as filehandle:
         pdf = PdfFileReader(filehandle)
         info = pdf.getDocumentInfo()
@@ -43,7 +43,7 @@ def pdf_Reader():
         print(page1)
         print(page1.extractText())
         
-text = pdf_Reader()
+text = pdf_Reader(pdf_document)
 text
 
 select_context = """Ramakrishna, the God-man of modern times, was born on February 18, 1836, in the
