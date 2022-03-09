@@ -1,5 +1,5 @@
 pandas
 numpy
-pyDF2
+pyPDF2
 transformers
 torch
