@@ -29,7 +29,7 @@ st.markdown("Project Self-Realization")
 st.markdown("In America Vivekananda's mission was the interpretation of India's spiritual culture,especially in its Vedantic setting.")
 
 
-pdf_document = "Project-Self-Realization/BiographybyNikhilananda.pdf"
+pdf_document = "BiographybyNikhilananda.pdf"
 def pdf_Reader(pdf_document): 
     with open(pdf_document, "rb") as filehandle:
         pdf = PdfFileReader(filehandle)
