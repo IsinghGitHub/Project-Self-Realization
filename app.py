@@ -31,6 +31,22 @@ st.markdown("In America Vivekananda's mission was the interpretation of India's 
 
 
 select_context = """
+
+In his heart of hearts Naren was a lover of God. Pointing to his eyes, Ramakrishna said 
+that only a bhakta possessed such a tender look; the eyes of the jnani were generally 
+dry. Many a time, in his later years, Narendra said, comparing his own spiritual attitude 
+with that of the Master: 'He was a jnani within, but a bhakta without; but I am a bhakta 
+within, and a jnani without.' He meant that Ramakrishna's gigantic intellect was hidden 
+under a thin layer of devotion, and Narendra's devotional nature was covered by a 
+cloak of knowledge. 
+We have already referred to the great depth of Sri Ramakrishna's love for his beloved 
+disciple. He was worried about the distress of Naren's family and one day asked a 
+wealthy devotee if he could not help Naren financially. Naren's pride was wounded and 
+he mildly scolded the Master. The latter said with tears in his eyes: 'O my Naren! I can 
+do anything for you, even beg from door to door.' Narendra was deeply moved but said 
+nothing. Many days after, he remarked, 'The Master made me his slave by his love for 
+me.'
+
 This great love of Sri Ramakrishna enabled Naren to face calmly the hardships of life. 
 Instead of hardening into a cynic, he developed a mellowness of heart. But, as will be 
 seen later, Naren to the end of his life was often misunderstood by his friends. A bold 
@@ -42,7 +58,6 @@ Naren's character. He began to feel intensely for the needy and afflicted. Had h
 nurtured in luxury, the Master used to say, he would perhaps have become a different 
 person — a statesman, a lawyer, an orator, or a social reformer. But instead, he 
 dedicated his life to the service of humanity. 
-
 Ramakrishna, the God-man of modern times, was born on February 18, 1836, in the
 little village of Kamarpukur, in the district of Hooghly in Bengal. How different were
 his upbringing and the environment of his boyhood from those of Narendranath, who
@@ -58,7 +73,6 @@ while watching a flight of snow-white cranes against a black sky overcast with r
 death, which left the family in straitened circumstances, deepened his spiritual mood.
 And so, though at the age of sixteen he joined his brother in Calcutta, he refused to go
 on there with his studies; for, as he remarked, he was simply not interested in an.
-
 The floodgate of Ramakrishna's emotion burst all bounds when he took up the duties of
 a priest in the Kali temple of Dakshineswar, where the Deity was worshipped as the
 Divine Mother. Ignorant of the scriptures and of the intricacies of ritual, Ramakrishna
@@ -92,7 +106,6 @@ I see you here, only more clearly. God can be seen. One can talk to him. But who
 for God? People shed torrents of tears for their wives, children, wealth, and property,
 but who weeps for the vision of God? If one who cries sincerely for God, one can surely see
 God.
-
 Absorbed, one day, in samadhi, Ramakrishna had found that his mind was soaring 
 high, going beyond the physical universe of the sun, moon, and stars, and passing into 
 the subtle region of ideas. As it continued to ascend, the forms of gods and goddesses 
@@ -116,7 +129,6 @@ both. A storm had been raging in Narendra's soul when he came to Sri Ramakrishna
 who himself had passed through a similar struggle but was now firmly anchored in 
 peace as a result of his intimate communion with the Godhead and his realization of 
 Brahman as the immutable essence of all things.
-
 """
 
 context = st.text_area("select a context",select_context)
