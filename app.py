@@ -44,7 +44,7 @@ def pdf_Reader(pdf_document):
         print(page1.extractText())
         
 text = pdf_Reader(pdf_document)
-text
+st.write(text)
 
 select_context = """Ramakrishna, the God-man of modern times, was born on February 18, 1836, in the
 little village of Kamarpukur, in the district of Hooghly in Bengal. How different were
