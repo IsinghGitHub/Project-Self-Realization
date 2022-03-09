@@ -122,7 +122,7 @@ Brahman as the immutable essence of all things.
 context = st.text_area("select a context",select_context)
 options = st.multiselect(
      'Select question from Below List',
-     ['Who am I?', 'Where am I going to?', "What's the purpose of Life ?", 'What do others mean to me?',"Where does Narendra's family lived?"])
+     ['Who are you?', 'Where am I going to?', "What's the purpose of Life ?", 'What do others mean to me?',"Where does Narendra's family lived?"])
 
 st.markdown("OR")
 question = st.text_input("Write a question of your choice here: Example: Who is Ramakrishna",options)
