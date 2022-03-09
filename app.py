@@ -10,6 +10,7 @@ import torch
 import streamlit as st
 
 
+from PyPDF2 import PdfFileReader
 from transformers import pipeline,QuestionAnsweringPipeline, DistilBertForQuestionAnswering,AutoTokenizer
 
 model_checkpoint = "distilbert-base-cased"
@@ -26,6 +27,24 @@ QAPipeline = QuestionAnsweringPipeline(model = myQAModel,tokenizer = tokenizer)
 st.markdown("Project Self-Realization")
 
 st.markdown("In America Vivekananda's mission was the interpretation of India's spiritual culture,especially in its Vedantic setting.")
+
+
+pdf_document = "BiographybyNikhilananda.pdf"
+def pdf_Reader(): 
+    with open(pdf_document, "rb") as filehandle:
+        pdf = PdfFileReader(filehandle)
+        info = pdf.getDocumentInfo()
+        pages = pdf.getNumPages()
+
+        print (info)
+        print ("number of pages: %i" % pages)
+
+        page1 = pdf.getPage(2)
+        print(page1)
+        print(page1.extractText())
+        
+text = pdf_Reader()
+text
 
 select_context = """Ramakrishna, the God-man of modern times, was born on February 18, 1836, in the
 little village of Kamarpukur, in the district of Hooghly in Bengal. How different were
