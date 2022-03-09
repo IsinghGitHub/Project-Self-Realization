@@ -28,7 +28,7 @@ st.markdown("Project Self-Realization")
 
 st.markdown("In America Vivekananda's mission was the interpretation of India's spiritual culture,especially in its Vedantic setting.")
 
-
+'''
 pdf_document = "BiographybyNikhilananda.pdf"
 def pdf_Reader(pdf_document): 
     with open(pdf_document, "rb") as filehandle:
@@ -44,7 +44,7 @@ def pdf_Reader(pdf_document):
         print(page1.extractText())
         
 text = pdf_Reader(pdf_document)
-
+'''
 
 select_context = """Ramakrishna, the God-man of modern times, was born on February 18, 1836, in the
 little village of Kamarpukur, in the district of Hooghly in Bengal. How different were
@@ -122,7 +122,7 @@ Brahman as the immutable essence of all things.
 
 """
 
-context = st.text_area("select a context",text)
+context = st.text_area("select a context",select_context)
 options = st.multiselect(
      'Select question from Below List',
      ['Who am I?', 'Where am I going to?', "What's the purpose of Life ?", 'What do others mean to me?',"Where does Narendra's family lived?"])
