@@ -30,7 +30,20 @@ st.markdown("In America Vivekananda's mission was the interpretation of India's 
 
 
 
-select_context = """Ramakrishna, the God-man of modern times, was born on February 18, 1836, in the
+select_context = """
+This great love of Sri Ramakrishna enabled Naren to face calmly the hardships of life. 
+Instead of hardening into a cynic, he developed a mellowness of heart. But, as will be 
+seen later, Naren to the end of his life was often misunderstood by his friends. A bold 
+thinker, he was far ahead of his time. Once he said: 'Why should I expect to be 
+understood? It is enough that they love me. After all, who am I? The Mother knows 
+best. She can do Her own work. Why should I think myself to be indispensable?' 
+The poverty at home was not an altogether unmitigated evil. It drew out another side of 
+Naren's character. He began to feel intensely for the needy and afflicted. Had he been 
+nurtured in luxury, the Master used to say, he would perhaps have become a different 
+person — a statesman, a lawyer, an orator, or a social reformer. But instead, he 
+dedicated his life to the service of humanity. 
+
+Ramakrishna, the God-man of modern times, was born on February 18, 1836, in the
 little village of Kamarpukur, in the district of Hooghly in Bengal. How different were
 his upbringing and the environment of his boyhood from those of Narendranath, who
 was to become, later, the bearer and interpreter of his message! Ramakrishna's parents,
