@@ -9,8 +9,6 @@ import numpy as np
 import torch 
 import streamlit as st
 
-
-from PyPDF2 import PdfFileReader
 from transformers import pipeline,QuestionAnsweringPipeline, DistilBertForQuestionAnswering,AutoTokenizer
 
 model_checkpoint = "distilbert-base-cased"
